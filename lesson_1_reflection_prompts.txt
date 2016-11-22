@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug that
+ was introduced?
+
+  
+
+It showed the areas there were different, allowing me to focus on only those sections of code vs trying to find the wrong incorrect command in the entire code.
+
+
+
+How could having easy access to the entire history of a file make you a more
+ efficient programmer in the long term?
+
+
+
+It allows you to try ideas then more easily go back to them later if they will now be beneficial.  It will help with error trace back (perhaps the error doesn't isn't an issue right away, but takes a few versions to becoman an issue, you can test various versions to help find the error).  
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    
+
+The pros of automatically being saved is you can't forget/go to long between saves; however, you may end up with more files than necessary (a lot of small changes could be saved, some could be fixing error; however the state with the error will be saved).  You also may be in the process of fixing the error when the save occcurs.  With a manual option the saves will be more deliberate (i.e after testing out each funtion instead of after each new line added...even if that line has an error you promptly fix).
+
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    
+
+
+Sometimes projects have forks, and you want to capture all of the paths.  However; this will make version tracking more difficult.  A project may hae seperate files (i.e. a funtion called by a different program (see program will .exe, readme file, .dlls, etc)
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+
+To see when changes were made and to see what those changes are.
+
+
+
+
+
+How might using version control make you more confident to make changes that
+ could break something?
+
+
+
+
+I know it will be easy to go back to a version that worked.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+For working with larger projects.
